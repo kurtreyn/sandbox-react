@@ -1,12 +1,14 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { setLoading } from './redux/actions';
-import Main from './components/Main';
+import Home from './Pages/Home';
+import AlgorithmsPage from './Pages/AlgorithmsPage';
 
 function App() {
   return (
     <div className="app-container">
-      <Main />
+      {/* <Home /> */}
+      <AlgorithmsPage />
     </div>
   );
 }
